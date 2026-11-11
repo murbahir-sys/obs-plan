@@ -1,0 +1,46 @@
+/* Presentation-only marine palette. Dimensions and reference layout are unchanged. */
+html,body{background:#eaf2f8;color:#102c42}
+header{background:#063b66;color:#ffffff;box-shadow:inset 0 -3px #68d6cf}
+.brand span{color:#d2eaf5}
+header nav button{background:#063b66;color:#ffffff;border-color:#91c5df}
+header nav button.on,header nav button.on:hover{background:#e4f7f5;color:#063b66;border-color:#68d6cf}
+header nav button:hover{background:#075c94;color:#ffffff}
+h1,h2,#desktop-addon h1{color:#083f70}h3,h4,.kicker,summary,a{color:#075c94}
+.muted,.lead,.login-note,.unit,.metric span,footer{color:#405c70}
+.panel,.auth,.answer-card,.card,.box,.xcol,.xcard,.ecard,.given-box{background:#ffffff;border-color:#93b4ca}
+.tile{background:#e4f7f5;border-color:#40858c;color:#102c42}
+.tile:nth-child(2){background:#e4effc;border-color:#527eac}.tile:nth-child(3){background:#edf4ff;border-color:#6684aa}
+.tile b{color:#075c94}.tile span{color:#405c70}.tile:hover{background:#d2edea;border-color:#006d77}
+.group,.metric,.formula,.note,.el,th{background:#e4eff8;border-color:#93b4ca}
+.formula,.note{border-left-color:#006d77}.metric b,.correct-value,#grade-note,.status{color:#075c94}
+button.btn{background:#075c94;border-color:#075c94;color:#ffffff}
+button.btn:hover{background:#063b66}button.btn.sec{background:#e4f7f5;border-color:#40858c;color:#064f57}
+button.btn.sec:hover{background:#d2edea}
+.tabs button,.visual-controls button,.toc button{color:#064f57}
+.tabs button,.visual-controls button{background:#ffffff;border-color:#52748c}
+.tabs button.on,.toc button.on,.toc button:hover{background:#d2edea;color:#064f57;border-color:#006d77}
+.tabs button:hover,.visual-controls button:hover{background:#e4f7f5}
+.toc{background:#ffffff;border-color:#93b4ca}
+input,select,.toolbar select,.auth .field input,.el input,.el select{color:#102c42;background:#ffffff;border-color:#52748c}
+th,td{border-color:#93b4ca}tbody tr:nth-child(even){background:#eff7fc}
+.result-mark.ok{background:#dcf5e6;color:#17643a;border-left:4px solid #17643a}
+.result-mark.bad{background:#ffe5e7;color:#a32330;border-left:4px solid #a32330}
+.ok{color:#17643a}.bad,.error{color:#a32330}.hint{color:#644500}
+.warn{background:#fff3d6;border-left-color:#876000;color:#644500}
+.visual{background:#edf7fc;border-color:#52748c}
+footer{background:#eaf2f8}
+button:focus,input:focus,select:focus,canvas:focus,.math-line:focus{outline:2px solid #006d77;outline-offset:2px}
+header button:focus{outline-color:#68d6cf}
+
+/* Independent scrolling, without a flex child stretching the entire column. */
+.theory-layout{align-items:flex-start}
+.toc{max-height:420px;min-height:0;overflow-y:scroll;overflow-x:hidden}
+.theory-eq{padding:8px 12px;margin:12px 0;background:#e4eff8;border-left:3px solid #006d77;max-width:100%;overflow-x:auto}
+.theory-eq .math-line{max-width:100%}
+.theory-diagram{margin:16px 0;max-width:100%;overflow-x:auto;border:1px solid #93b4ca;background:#edf7fc;padding:8px}
+.theory-diagram img{display:block;width:100%;min-width:520px;max-width:none}
+.theory-diagram figcaption{font-size:13pt;color:#405c70;margin-top:8px}
+.doc li{margin-bottom:10px}
+.answer-card [data-grade]{display:block;margin-top:10px}
+@media(max-width:860px){.toc{max-height:280px}}
+.theory-eq .katex-display{margin:.1em 0;text-align:left}.theory-eq .katex-display>.katex{text-align:left}
